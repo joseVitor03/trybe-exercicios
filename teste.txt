@@ -1,6 +1,0 @@
-este é um teste da minha primeira modificação pro github
-segunda linha
-segunda linha
-teste para o pull request
-novo teste para o pull request
-teste para o git pull
