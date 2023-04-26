@@ -1,35 +1,41 @@
-.super-mario {
-    position: absolute;
-    width: 200px;
-    left: 15%;
-  }
-  
-  .goomba {
-    position: absolute;
-    width: 100px;
-    top: 50%;
-    left: 18%;
-  }
-  
-  .baloon {
-    position: absolute;
-    top: 38%;
-    left: 44%;
-    z-index: 1;
-  }
-  
-  .speach {
-    position: absolute;
-    top: 42%;
-    left: 45%;
-    font-size: 25px;
-    z-index: 2;
-  }
-  
-  .bowser {
-    position: absolute;
-    width: 200px;
-    top: 50%;
-    left: 60%;
+h1, p{
+    text-align: center;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+#twitch:hover{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+#twitch:active{
+    font-size: 19px;
     
-  }
+}
+
+#youtube:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#youtube:active{
+    font-size: 19px;
+    
+}
+
+#instagram:hover{
+    background-color: rgb(127, 167, 201);
+    color: white;
+    cursor: pointer;
+}
+
+#instagram:active{
+    font-size: 19px;
+    
+}
+
