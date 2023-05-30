@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    background-color: black;
+    color: white;
+  }
+
+.aside-one, .aside-two, footer {
+    margin: 2%;
+  }
+
+  header {
+    margin: 0;
+    padding: 1%;
+    background-color: gray;
+  }
+
+  header p {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  footer {
+    background-color: gray;
+    margin: 10%;
+    text-align: center;
+    padding: 2%;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: 5% auto;
+  }
+
+  .main-content p {
+   text-align: justify;
+  }
