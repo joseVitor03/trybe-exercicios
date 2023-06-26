@@ -10,10 +10,12 @@ body {
     overflow: hidden;
     background-image: url('https://i.pinimg.com/originals/d9/94/f7/d994f7eee97ae819eb67801ae96b2c21.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 .container {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -21,6 +23,8 @@ body {
     margin: 15vh auto;
     padding: 2%;
 }
+
+
 
 #title {
     margin-bottom: 3%;
@@ -33,8 +37,22 @@ body {
     height: 485px;
     border: 2px solid white;
     box-shadow: 0 0 20px black;
+    animation: 5s linear infinite animate;
 }
 
+@keyframes animate {
+    0% {
+        border-color: red;
+    }
+    66% {
+        border-color: #00f;
+    }
+    
+    100% {
+        border-color: red;
+    }
+
+}
 #card {
     width: 100%;
 }
@@ -62,7 +80,9 @@ body {
 
 @media screen and (max-width: 750px) {
     body {
-        background: linear-gradient(45deg, blue, red);
+        background-image: url('https://i.pinimg.com/originals/d9/94/f7/d994f7eee97ae819eb67801ae96b2c21.jpg');
+        background-position: center;
+        background-size: cover;
     }
 
     .container-card {
