@@ -1,5 +1,3 @@
-FROM betrybe/figtrybe-artify
+FROM alpine:3.14
 
-ENTRYPOINT [ "node", "app.js" ]
-
-CMD ["mensagem padrão"]
+CMD ["echo", "Eu sou uma pessoa desenvolvedora!"]
